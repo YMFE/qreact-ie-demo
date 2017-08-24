@@ -1,0 +1,30 @@
+{
+    "name": "qreact-demo",
+    "version": "0.0.1",
+    "description": "Qreact demo",
+    "main": "./src/App.js",
+    "scripts": {
+        "dev": "cd .. && sudo ykit s"
+    },
+    "author": "xinben.zhu",
+    "license": "MIT",
+    "dependencies": {
+        "autoprefixer": "^7.1.2",
+        "babel-core": "^6.25.0",
+        "babel-loader": "^7.1.1",
+        "babel-plugin-add-module-exports": "^0.2.1",
+        "babel-plugin-transform-export-extensions": "^6.22.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "es3ify-loader": "^0.2.0",
+        "es5-shim": "^4.5.9",
+        "node-sass": "^4.5.3",
+        "qreact": "^1.0.1",
+        "react": "^15.6.1",
+        "react-dom": "^15.6.1"
+    },
+    "devDependencies": {
+        "eslint": "^4.5.0",
+        "eslint-plugin-react": "^7.2.1"
+    }
+}

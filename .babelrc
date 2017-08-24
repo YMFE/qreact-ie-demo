@@ -1,0 +1,14 @@
+{
+    "plugins": [
+        "transform-export-extensions",
+        // babel@6 不再以 commonJS 方式输出模块
+        // 而在入口文件中中必须以 require 方式引入模块
+        // 否则无法正常渲染
+        // 详细信息请查看 https://github.com/59naga/babel-plugin-add-module-exports
+        "add-module-exports"
+    ],
+    "presets": [
+        "es2015",
+        "react"
+    ]
+}

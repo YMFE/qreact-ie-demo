@@ -1,0 +1,16 @@
+.home {
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.list {
+  width: 50%;
+  min-width: 600px;
+  text-align: left;
+  margin: 0 auto;
+  list-style: decimal;
+}
