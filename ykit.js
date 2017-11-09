@@ -1,6 +1,9 @@
 const path = require('path');
 
 module.exports = {
+    server: {
+        hot: true
+    },
     plugins: [],
     config: {
         modifyWebpackConfig: function (baseConfig) {
@@ -28,7 +31,7 @@ module.exports = {
             baseConfig.module.postLoaders = [
                 {
                     test: /\.jsx?$/,
-                    loaders: ['es3ify-loader']
+                    loaders: [require.resolve('es3ify-loader')]
                 }
             ];
 
